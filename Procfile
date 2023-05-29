@@ -1,2 +1,2 @@
-release: python manage.py migrate
-web: gunicorn tutorial.wsgi
+web: gunicorn tutorial.tutorial.wsgi
+release: python manage.py migrates
